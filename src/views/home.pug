@@ -4,11 +4,17 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Noom
+        title Boom
         link(rel="stylesheet", href="https://unpkg.com/mvp.css")
     body
         header 
-            h1 Noom
+            h1 Boom
         main 
-            h2 Wecome to Noom
+            form#nick
+                input(type="text", placeholder="Your nickname")
+                button Save
+            ul
+            form#msg
+                input(type="text", placeholder="Write a message", required)
+                button Send
         script(src="/public/js/app.js")
